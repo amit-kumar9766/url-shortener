@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "description": "A simple URL shortener using Node.js, Express, and SQLite",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^4.18.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "nodemon": "^3.0.2",
+    "supertest": "^7.1.3"
+  }
+}
